@@ -1,0 +1,28 @@
+.background    { background-image: url('../images/dungeon.png');
+                 table-layout: fixed;
+                 border-spacing: 0;
+               }
+                 
+.background td { padding: 0;          }
+.fire          { background-image: url('../images/ember.gif'); }
+.wall          { background-image: url('../images/floor.png'); }
+
+.actor  { position: absolute;  }
+.bolt   { background-image: url('../images/bolt.png'); }
+.player { background-image: url('../images/PikachuJump.gif'); }
+.enemy  { background-image: url('../images/enemy.gif'); }
+.spike	{ background-image: url('../images/spike.png'); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background-image: url('../images/Pikachu2.gif');
+}
+.won .player {
+  background-image: url('../images/PikachuWin.gif');
+}
